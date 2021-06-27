@@ -1,0 +1,128 @@
+   Preloader section              
+-----------------------------------------*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 grey;
+}
+.sk-rotating-plane {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  -webkit-animation: sk-rotatePlane 1s infinite ease-in-out 1s;
+          animation: sk-rotatePlane 1s infinite ease-in-out 1s; }
+
+@-webkit-keyframes sk-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+@keyframes sk-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+
+.padding-5 {
+  padding:5%;
+}
+
+
+
+div#awesomeDiv {
+   position: center;
+   background-color: #D8D8D8;
+   width: 200px;
+   height: 200px;
+   transform: rotate(-24deg);
+  
+   margin-left:30px;
+   margin-top: 30px;
+   background-color: aquamarine;
+}
+
+div#centerMe {
+   position: relative;
+   margin-top: 92px;
+   color: white;
+}
+
+card {
+ width: '18rem';
+}
+
+a, .Button {
+	text-decoration:none;
+	color: azure;
+	
+	
+}
+
+.awesomeDiv {
+  transition : all .5s;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.awesomeDiv-rotated {
+  -webkit-transform: rotate(-24deg);
+      -ms-transform: rotate(-24deg);
+          transform: rotate(-24deg);
+}
+
+.awesomeDiv1 {
+  transition : all .5s;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.awesomeDiv1-rotated {
+  -webkit-transform: rotate(-24deg);
+      -ms-transform: rotate(-24deg);
+          transform: rotate(-24deg);
+}
+.awesomeDiv2 {
+  transition : all .5s;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.awesomeDiv2-rotated {
+  -webkit-transform: rotate(-24deg);
+      -ms-transform: rotate(-24deg);
+          transform: rotate(-24deg);
+}
+.awesomeDiv3 {
+  transition : all .5s;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.awesomeDiv3-rotated {
+  -webkit-transform: rotate(-24deg);
+      -ms-transform: rotate(-24deg);
+          transform: rotate(-24deg);
+}
